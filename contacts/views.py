@@ -6,8 +6,6 @@ from rest_framework.permissions import IsAuthenticated
 # Create your views here.
 
 
-'''Doc String Added For Practice In Git Hub'''
-
 class ContactList(ListCreateAPIView):
 
     serializer_class = ContactSerializer
